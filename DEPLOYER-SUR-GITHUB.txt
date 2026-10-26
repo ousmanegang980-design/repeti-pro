@@ -1,0 +1,29 @@
+RÉPÉTIPRO — MISE EN LIGNE SUR GITHUB PAGES (5 minutes)
+========================================================
+
+1. Décompressez ce ZIP sur votre ordinateur ou téléphone.
+2. Sur github.com : New repository → nom : repetipro → Create repository.
+3. Cliquez "uploading an existing file" puis envoyez TOUS les fichiers
+   du dossier décompressé (index.html, app.js, logic.js, styles.css,
+   sw.js, manifest.webmanifest, icon.svg, README.md...).
+   → Ne mettez pas les fichiers dans un sous-dossier : ils doivent être
+     à la racine du dépôt, à côté les uns des autres.
+4. Commit changes.
+5. Settings → Pages → Branch : main / (root) → Save.
+6. Attendez 1 minute : votre adresse est
+   https://VOTRE-NOM.github.io/repetipro/
+7. Ouvrez-la dans Chrome Android → ⋮ → "Installer l'application".
+   Ensuite RépétiPro fonctionne SANS Internet (données sur le téléphone).
+
+Fichiers indispensables (ne pas en oublier) :
+  index.html  app.js  logic.js  styles.css  sw.js
+  manifest.webmanifest  icon.svg
+Le dossier tests/ et le fichier index-monofichier.html sont facultatifs :
+  - tests/ : les tests automatiques (vous pouvez l'envoyer ou non).
+  - index-monofichier.html : version tout-en-un de secours (si un jour
+    vous ne voulez héberger qu'UN fichier). La version complète ci-dessus
+    est préférable : installation + hors-ligne total.
+
+Après l'installation : Plus → Paramètres → nom de votre entreprise,
+slogan, téléphone → ils apparaîtront sur tous vos reçus PDF/PNG.
+Exportez régulièrement une sauvegarde : Plus → Sauvegarde & synchronisation.
